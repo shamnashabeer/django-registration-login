@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+}
+.box{
+    background-color: rgb(84, 84, 168);
+    height: 50px;
+    position: relative;
+
+
+}
+.section{
+    background-color:rgb(84, 84, 168) ;
+
+}
+.container{
+    position: relative;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.id{
+    text-decoration: none;
+    padding: 5px;
+    font-size: 20px;
+    color: antiquewhite;
+    
+}
+.id:hover{
+    color: red;
+    text-decoration: none;
+}
+body{
+    background-color: rgba(86, 86, 217, 0.43);
+
+}
+.head{
+    color: black;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+.det{
+    font-size: 20px;
+}
+.sub{
+    border-radius: 5px;
+    color: rgb(84, 84, 168);
+}
+.sub:hover{
+    color:  red;
+}

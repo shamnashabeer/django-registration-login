@@ -1,0 +1,29 @@
+{% extends 'master.html' %}
+{% load static %}
+{% block title %}
+    Registration Page
+{% endblock %}
+{% block content %}
+ 
+    <h1 class="head">Registration</h1>
+    <form action="" method="post">
+    {% csrf_token %}
+    <label for="" class="det">Enter Name:</label>
+    <input type="text" name="registration_name">
+    <br><br>
+    <label for="" class="det">Enter Email:</label>
+    <input type="text" name="registration_email">
+    <br><br>
+    <label for="" class="det">Enter Number:</label>
+    <input type="text" name="registration_num"> 
+    <br><br>
+    <label for="" class="det">Enter Username:</label>
+    <input type="text" name="registration_use">
+    <br><br>
+    <label for="" class="det">Enter Password:</label>
+    <input type="text" name="registration_pass">
+    <br><br>
+    <button type="submit" class="sub">submit</button>
+    </form>
+{% endblock %}
+

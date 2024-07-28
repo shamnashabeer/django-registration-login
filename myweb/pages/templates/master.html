@@ -1,0 +1,35 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'bootstrap-3.3.7-dist/css/bootstrap.min.css' %}">
+
+    <link rel="stylesheet" href="{% static 'css/master.css' %}">
+    <title>{% block title %}{% endblock %}</title>
+    
+</head>
+<body>
+    <div class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="box">
+    <a href="/" class="id">Home</a>
+    <a href="/about" class="id">About</a>
+    <!-- <a href="/services" class="id">Services</a> -->
+    <a href="/contact"  class="id">Contact</a>
+    <a href="/registration"  class="id">Registration</a>
+    <a href="/login" class="id">Login</a>  
+    <a href="/account" class="id">Account</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+    <br>
+    {% block content %}{% endblock %}
+</body>
+</html>
